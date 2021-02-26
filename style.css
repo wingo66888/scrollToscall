@@ -25,14 +25,14 @@ section {
   text-align: center;
   line-height: 100vh;
   font-size: 80px;
-  color: #fff;
+  color: #000;
 }
 
 section:nth-of-type(odd) {
-  background: lightblue;
+  background: rgb(255, 247, 170);
 }
 
 section:nth-of-type(even) {
-  background: pink;
+  background: rgb(220, 255, 175);
 }
 /*# sourceMappingURL=style.css.map */
