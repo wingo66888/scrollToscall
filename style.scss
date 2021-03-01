@@ -1,4 +1,10 @@
+@charset "UTF-8";
 * {
+  margin: 0;
+  padding: 0;
+  font-family: 微軟正黑體;
+
+  * {
     margin: 0;
     padding: 0;
     font-family: 微軟正黑體;
@@ -27,9 +33,21 @@ section {
     color: #fff;
 
     &:nth-of-type(odd) {
-        background: lightblue;
+        background: rgb(242, 243, 178);
     }
     &:nth-of-type(even) {
-        background: pink;
+        background: rgb(181, 243, 170);
     }
+}
+
+// 箭頭樣式
+#arrow {
+    background-image: url(./arrow.png);
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 2;
+    cursor: pointer;
 }
