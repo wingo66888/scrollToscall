@@ -29,10 +29,21 @@ section {
 }
 
 section:nth-of-type(odd) {
-  background: rgb(255, 247, 170);
+  background: #f2f3b2;
 }
 
 section:nth-of-type(even) {
-  background: rgb(220, 255, 175);
+  background: #b5f3aa;
+}
+
+#arrow {
+  background-image: url(./arrow.png);
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
